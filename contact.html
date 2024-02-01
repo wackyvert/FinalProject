@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap" rel="stylesheet">
-    <title>Innovexa</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="STYLE.css"/>
+    <link rel="stylesheet" href="contact.css">
 </head>
-<body class="homepage">
+<body>
 <div class="container">
     <div class="Logo"><img src="Innovexa.png" alt=""></div>
     <div class="Nav">
@@ -21,15 +22,24 @@
     </div>
     <div class="Content">
         <video autoplay muted loop id="myVideo">
-        <source src="Video1.mp4" type="video/mp4">
-    </video>
-        <h1>Empowering Urban Futures with Innovation and Sustainability</h1>
-        <h2>At Innovexa, we are committed to transforming urban landscapes into smarter, more sustainable, and more livable spaces. We believe in harnessing the power of cutting-edge technology to address the complex challenges of modern cities. Our mission is to provide innovative solutions that blend efficiency, sustainability, and community engagement, reshaping the way we think about urban living.
+            <source src="Video1.mp4" type="video/mp4">
+        </video>
+        <div class="wrapper">
+            <form class="form">
+                <div class="pageTitle title">Contact Us</div>
+                <div class="secondaryTitle title">Please fill this form and we will contact you as soon as possible.</div>
+                <input type="text" class="name formEntry" placeholder="Name" />
+                <input type="text" class="email formEntry" placeholder="Email"/>
+                <textarea class="message formEntry" placeholder="Message"></textarea>
+                <input type="checkbox" class="termsConditions" value="Term">
+                <label style="color: grey"> I Accept the <span style="color: #31a6fa"><a href="blank">Terms of Use</a></span> & <span style="color: #31a6fa"><a href="blank">Privacy Policy</a></span>.</label><br>
+                <button class="submit formEntry" onclick="">Submit</button>
+            </form>
+        </div>
+        </form>
 
-            We strive to create intelligent infrastructures, renewable energy systems, and efficient waste management practices that are not only environmentally friendly but also enhance the quality of life for all city dwellers. Our approach is collaborative and inclusive, involving citizens, governments, and businesses alike in the journey towards sustainable urban development.
-
-            Join us in our endeavor to build the cities of tomorrow, cities that are smart, green, and thriving with potential. Welcome to Innovexa, where innovation meets excellence for a sustainable future.</h2>
     </div>
+
     <div class="Footer">
         <footer class="footer">
             <p>Connect with us:</p>

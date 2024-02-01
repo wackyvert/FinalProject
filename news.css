@@ -1,0 +1,26 @@
+.news-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(51, 51, 51, 0.51);
+    border-radius: 10px;
+}
+.news-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+.news-date {
+    font-family: 'Cabin', sans-serif;
+    color: #91afbf;
+    font-size: 0.8em;
+}
+.news-title {
+    font-family: 'Cabin', sans-serif;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+.news-content {
+    font-family: 'Cabin', sans-serif;
+    text-align: justify;
+    color: white;
+}

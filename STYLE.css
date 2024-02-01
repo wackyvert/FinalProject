@@ -22,6 +22,11 @@ h2{
     color: white;
     line-height: 1.5;
 }
+h3{
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    line-height: 1.5;
+}
 
 #myVideo {
     position: fixed;
@@ -73,7 +78,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #5e5e5e;
+    background-color: rgba(94, 94, 94, 0.49);
 }
 .footer {
     background-color: #333;
@@ -87,12 +92,12 @@ li a:hover {
     text-decoration: none;
 }
 .footer {
-    width: 100%; /* Ensures the footer takes the full width of the page. */
-    position: absolute;
+    width: 100%;
+    position: fixed;
     bottom: 0;
 }
 
-.Footer { /* This class should be added if .Footer div is required.*/
+.Footer {
     width: 100%;
 
 }
@@ -105,7 +110,7 @@ li a:hover {
 }
 
 .homepage{
-    overflow: hidden;
+
 }
 .news-container {
     width: 80%;
@@ -132,4 +137,8 @@ li a:hover {
     font-family: 'Cabin', sans-serif;
     text-align: justify;
     color: white;
+}
+p{
+    font-family: 'Cabin', sans-serif;
+    font-size: medium;
 }
