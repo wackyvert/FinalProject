@@ -24,13 +24,39 @@
 }
 
 
-figcaption {
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+blockquote{
+    font-size: 1.4em;
+    width:60%;
+    margin:50px auto;
+    font-family:Open Sans;
+    font-style:italic;
+    color: #ffffff;
+    padding:1.2em 30px 1.2em 75px;
+    border-left:8px solid #5ce7f8;
+    line-height:1.6;
+    position: relative;
+    background: rgba(237, 237, 237, 0.5);
+}
 
-    color: #fff;
-    font: italic smaller sans-serif;
-    padding: 3px;
-    text-align: center;
-    font-size: medium;
+blockquote::before{
+    font-family:Arial;
+    content: "\201C";
+    color:#5ce7f8;
+    font-size:3em;
+    position: absolute;
+    left: 10px;
+    top:-10px;
+}
 
+blockquote::after{
+    content: '';
+}
 
+blockquote span{
+    display:block;
+    color:#333333;
+    font-style: normal;
+    font-weight: bold;
+    margin-top:1em;
 }
