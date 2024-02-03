@@ -6,3 +6,31 @@
 .about-text{
     text-shadow: rgba(51, 51, 51, 0.64) 7px 7px ;
 }
+.floater {
+    display: flex;
+    justify-content: space-between;
+}
+
+.floater figure, .floater div {
+    flex: 1;
+}
+.portrait {
+    width: 50%;
+    border-radius: 10%;
+}
+.about-text{
+    flex: none;
+    text-align: center;
+}
+
+
+figcaption {
+
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    font-size: medium;
+
+
+}
